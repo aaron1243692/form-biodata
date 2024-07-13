@@ -1,0 +1,241 @@
+body{
+    background-color: black  ;
+}
+#main-container{
+    background-color: #F2F4F4;
+    padding: 10px 10px 10px 10px;
+    width: 1240px;
+    height: 1820px;
+    position:relative;
+    left: 50%;
+    transform:translateX(-50%);
+
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    position: relative;
+    left: 50%;
+    top:40%;
+    transform:translate(-50%,-50%);
+}
+#image{
+    background-image: url("me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    /* top:50%;
+    transform:translate(-50%); */
+    border: 1px solid black;
+}
+#header-content{
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+#head-label{
+    /* background-color: red; */
+    width: 100%;
+    display:flex;
+    justify-self: center;
+}
+h2{
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-left: 3%;
+    color: white;
+    position: relative;
+    top:15%;
+    transform:translateY(-50%);
+}
+#label-personaldata{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+#label-personaldata1{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+    position: relative;
+    top:-40px
+}
+#label-personaldata2{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+
+    position: relative;
+    top:-60px
+}
+.label-personaldata{
+    position: relative;
+    top:-20px;
+}
+.personaldatacontent{
+    position: relative;
+    left: 50%;
+    top:0px;
+    transform:translateX(-50%);
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    /* display: flex;
+    flex-direction: column; */
+}
+#personaldatacontent1{
+    height: 590px;
+}
+#personaldatacontent2{
+    height: 170px;
+    position: relative;
+    top:-20px;
+}
+#personaldatacontent3{
+    height: 140px;
+    position: relative;
+    top:-40px;
+}
+#personaldatacontent4{
+    height: 140px;
+    position: relative;
+    top:-60px;
+}
+#personaldatacontent5{
+    height: 240px;
+    width: 102%;
+    position: relative;
+    top:-60px;
+    margin-bottom: -90px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border:none;
+}
+.container{
+    /* border: 2px solid blue; */
+    margin:10px;
+    height: 100%;
+    width: 50%;
+}
+#container1{
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#container2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.confirm{
+    text-align: center;
+    display:flex;
+    justify-self: center;
+
+    font-size: px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.personaldata-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:10px;
+    margin-bottom: 5px;
+    height: 25px;
+}
+.InputContent{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 10px 10px;
+    /* border:2px solid black; */
+}
+.InputLabel{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+#Box1{
+    /* border-radius: 10px;
+    border:2px solid blue; */
+    width: 210px;
+}
+#Box2{
+    /* border-radius: 10px;
+    border:2px solid red; */
+    width: 450px;
+}
+#Box3{
+    /* border-radius: 10px;
+    border:2px solid blue; */
+    width: 190px;
+}
+#Box01{
+    /* border-radius: 10px;
+    border:2px solid blue; */
+    width: 220px;
+}
+.InputBox{
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline:none;
+    background-color: transparent;
+    width: 420px;
+    height: 25px;
+}
+.InputBox2{
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline:none;
+    background-color: transparent;
+    width: 293PX;
+    height: 25px;
+}
+.InputBox3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline:none;
+    background-color: transparent;
+    width: 945px;
+    height: 25px;
+}
+hr{
+    height: 1.5px;
+    width: 80%;
+    background-color: black;
+}
